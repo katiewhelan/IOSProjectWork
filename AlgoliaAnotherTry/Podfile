@@ -1,0 +1,16 @@
+# Uncomment the next line to define a global platform for your project
+# platform :ios, '9.0'
+
+target 'AlgoliaAnotherTry' do
+  # Comment the next line if you don't want to use dynamic frameworks
+  use_frameworks!
+
+  # Pods for AlgoliaAnotherTry
+
+# Pods for SearchTestAlgolia
+pod 'InstantSearch', '~> 7'
+pod 'AlgoliaSearchClient', '~> 8'
+pod 'SDWebImage', '~> 5'
+pod 'InstantSearchCore', '~> 5.0'
+
+end

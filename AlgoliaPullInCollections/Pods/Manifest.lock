@@ -1,0 +1,38 @@
+PODS:
+  - AlgoliaSearchClient (8.8.1):
+    - Logging
+  - InstantSearch (7.9.1):
+    - InstantSearch/UI (= 7.9.1)
+  - InstantSearch/Core (7.9.1):
+    - AlgoliaSearchClient (~> 8.7)
+    - InstantSearch/Insights
+  - InstantSearch/Insights (7.9.1):
+    - AlgoliaSearchClient (~> 8.7)
+  - InstantSearch/UI (7.9.1):
+    - InstantSearch/Core
+  - Logging (1.4.0)
+  - SDWebImage (5.10.4):
+    - SDWebImage/Core (= 5.10.4)
+  - SDWebImage/Core (5.10.4)
+
+DEPENDENCIES:
+  - AlgoliaSearchClient (~> 8)
+  - InstantSearch (~> 7)
+  - SDWebImage (~> 5)
+
+SPEC REPOS:
+  trunk:
+    - AlgoliaSearchClient
+    - InstantSearch
+    - Logging
+    - SDWebImage
+
+SPEC CHECKSUMS:
+  AlgoliaSearchClient: bbafe7f014cc0b474646d794ae3675ef4e92f0d5
+  InstantSearch: b48d4573f697f8fe817090aeb87c0fd19245349b
+  Logging: beeb016c9c80cf77042d62e83495816847ef108b
+  SDWebImage: c666b97e1fa9c64b4909816a903322018f0a9c84
+
+PODFILE CHECKSUM: bf0117a5ff949ee6ea7c2ad5a25c521a449b8763
+
+COCOAPODS: 1.10.1

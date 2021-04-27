@@ -1,0 +1,5 @@
+${PODS_ROOT}/Target Support Files/Pods-MovieDemoFile/Pods-MovieDemoFile-frameworks.sh
+${BUILT_PRODUCTS_DIR}/AlgoliaSearchClient/AlgoliaSearchClient.framework
+${BUILT_PRODUCTS_DIR}/InstantSearch/InstantSearch.framework
+${BUILT_PRODUCTS_DIR}/Logging/Logging.framework
+${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework

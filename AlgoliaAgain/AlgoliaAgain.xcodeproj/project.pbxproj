@@ -1,0 +1,428 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2934849725FA9A0D00221F85 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2934849625FA9A0D00221F85 /* AppDelegate.swift */; };
+		2934849B25FA9A0D00221F85 /* CollectionListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2934849A25FA9A0D00221F85 /* CollectionListViewController.swift */; };
+		2934849E25FA9A0D00221F85 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2934849C25FA9A0D00221F85 /* Main.storyboard */; };
+		293484A025FA9A1000221F85 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2934849F25FA9A1000221F85 /* Assets.xcassets */; };
+		293484A325FA9A1000221F85 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 293484A125FA9A1000221F85 /* LaunchScreen.storyboard */; };
+		293484B325FAA2DE00221F85 /* Collectzion.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293484B225FAA2DE00221F85 /* Collectzion.swift */; };
+		293484B625FAA94200221F85 /* MainSplitViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293484B525FAA94200221F85 /* MainSplitViewController.swift */; };
+		293484BB25FAB16900221F85 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 293484BA25FAB16900221F85 /* SceneDelegate.swift */; };
+		294708A225FB052C000D48C0 /* UIView+Layout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 294708A125FB052C000D48C0 /* UIView+Layout.swift */; };
+		BF9B612F62427165C4DAA31A /* Pods_AlgoliaAgain.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EEFD8430C7423E5C657C6E59 /* Pods_AlgoliaAgain.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2934849325FA9A0D00221F85 /* AlgoliaAgain.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlgoliaAgain.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2934849625FA9A0D00221F85 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2934849A25FA9A0D00221F85 /* CollectionListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionListViewController.swift; sourceTree = "<group>"; };
+		2934849D25FA9A0D00221F85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2934849F25FA9A1000221F85 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		293484A225FA9A1000221F85 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		293484A425FA9A1000221F85 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		293484B225FAA2DE00221F85 /* Collectzion.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Collectzion.swift; sourceTree = "<group>"; };
+		293484B525FAA94200221F85 /* MainSplitViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainSplitViewController.swift; sourceTree = "<group>"; };
+		293484BA25FAB16900221F85 /* SceneDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		294708A125FB052C000D48C0 /* UIView+Layout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIView+Layout.swift"; sourceTree = "<group>"; };
+		D6F81B8A245E3A2D166E32D8 /* Pods-AlgoliaAgain.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlgoliaAgain.debug.xcconfig"; path = "Target Support Files/Pods-AlgoliaAgain/Pods-AlgoliaAgain.debug.xcconfig"; sourceTree = "<group>"; };
+		EA47972B64B7D120FB108C2C /* Pods-AlgoliaAgain.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AlgoliaAgain.release.xcconfig"; path = "Target Support Files/Pods-AlgoliaAgain/Pods-AlgoliaAgain.release.xcconfig"; sourceTree = "<group>"; };
+		EEFD8430C7423E5C657C6E59 /* Pods_AlgoliaAgain.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AlgoliaAgain.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2934849025FA9A0D00221F85 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF9B612F62427165C4DAA31A /* Pods_AlgoliaAgain.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1AB3DF2DC5C3009F3492FDB9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D6F81B8A245E3A2D166E32D8 /* Pods-AlgoliaAgain.debug.xcconfig */,
+				EA47972B64B7D120FB108C2C /* Pods-AlgoliaAgain.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		2934848A25FA9A0D00221F85 = {
+			isa = PBXGroup;
+			children = (
+				2934849525FA9A0D00221F85 /* AlgoliaAgain */,
+				2934849425FA9A0D00221F85 /* Products */,
+				1AB3DF2DC5C3009F3492FDB9 /* Pods */,
+				4D0D5DE6908B0EE683B89D32 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2934849425FA9A0D00221F85 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2934849325FA9A0D00221F85 /* AlgoliaAgain.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2934849525FA9A0D00221F85 /* AlgoliaAgain */ = {
+			isa = PBXGroup;
+			children = (
+				2934849625FA9A0D00221F85 /* AppDelegate.swift */,
+				293484BA25FAB16900221F85 /* SceneDelegate.swift */,
+				2934849A25FA9A0D00221F85 /* CollectionListViewController.swift */,
+				2934849C25FA9A0D00221F85 /* Main.storyboard */,
+				2934849F25FA9A1000221F85 /* Assets.xcassets */,
+				293484A125FA9A1000221F85 /* LaunchScreen.storyboard */,
+				293484A425FA9A1000221F85 /* Info.plist */,
+				293484B225FAA2DE00221F85 /* Collectzion.swift */,
+				293484B525FAA94200221F85 /* MainSplitViewController.swift */,
+				294708A125FB052C000D48C0 /* UIView+Layout.swift */,
+			);
+			path = AlgoliaAgain;
+			sourceTree = "<group>";
+		};
+		4D0D5DE6908B0EE683B89D32 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				EEFD8430C7423E5C657C6E59 /* Pods_AlgoliaAgain.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2934849225FA9A0D00221F85 /* AlgoliaAgain */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 293484A725FA9A1000221F85 /* Build configuration list for PBXNativeTarget "AlgoliaAgain" */;
+			buildPhases = (
+				B5F6861776BC3A8DAB1FED81 /* [CP] Check Pods Manifest.lock */,
+				2934848F25FA9A0D00221F85 /* Sources */,
+				2934849025FA9A0D00221F85 /* Frameworks */,
+				2934849125FA9A0D00221F85 /* Resources */,
+				5F3C4FB9AD60E82DE0A75E2F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlgoliaAgain;
+			productName = AlgoliaAgain;
+			productReference = 2934849325FA9A0D00221F85 /* AlgoliaAgain.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2934848B25FA9A0D00221F85 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+				TargetAttributes = {
+					2934849225FA9A0D00221F85 = {
+						CreatedOnToolsVersion = 12.4;
+					};
+				};
+			};
+			buildConfigurationList = 2934848E25FA9A0D00221F85 /* Build configuration list for PBXProject "AlgoliaAgain" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2934848A25FA9A0D00221F85;
+			productRefGroup = 2934849425FA9A0D00221F85 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2934849225FA9A0D00221F85 /* AlgoliaAgain */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2934849125FA9A0D00221F85 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				293484A325FA9A1000221F85 /* LaunchScreen.storyboard in Resources */,
+				293484A025FA9A1000221F85 /* Assets.xcassets in Resources */,
+				2934849E25FA9A0D00221F85 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5F3C4FB9AD60E82DE0A75E2F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AlgoliaAgain/Pods-AlgoliaAgain-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AlgoliaAgain/Pods-AlgoliaAgain-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AlgoliaAgain/Pods-AlgoliaAgain-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B5F6861776BC3A8DAB1FED81 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AlgoliaAgain-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2934848F25FA9A0D00221F85 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				293484BB25FAB16900221F85 /* SceneDelegate.swift in Sources */,
+				2934849B25FA9A0D00221F85 /* CollectionListViewController.swift in Sources */,
+				294708A225FB052C000D48C0 /* UIView+Layout.swift in Sources */,
+				2934849725FA9A0D00221F85 /* AppDelegate.swift in Sources */,
+				293484B625FAA94200221F85 /* MainSplitViewController.swift in Sources */,
+				293484B325FAA2DE00221F85 /* Collectzion.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2934849C25FA9A0D00221F85 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2934849D25FA9A0D00221F85 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		293484A125FA9A1000221F85 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				293484A225FA9A1000221F85 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		293484A525FA9A1000221F85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		293484A625FA9A1000221F85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		293484A825FA9A1000221F85 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D6F81B8A245E3A2D166E32D8 /* Pods-AlgoliaAgain.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4PM3QX7TX7;
+				INFOPLIST_FILE = AlgoliaAgain/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = littlewhelan.AlgoliaAgain;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		293484A925FA9A1000221F85 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EA47972B64B7D120FB108C2C /* Pods-AlgoliaAgain.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4PM3QX7TX7;
+				INFOPLIST_FILE = AlgoliaAgain/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = littlewhelan.AlgoliaAgain;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2934848E25FA9A0D00221F85 /* Build configuration list for PBXProject "AlgoliaAgain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				293484A525FA9A1000221F85 /* Debug */,
+				293484A625FA9A1000221F85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		293484A725FA9A1000221F85 /* Build configuration list for PBXNativeTarget "AlgoliaAgain" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				293484A825FA9A1000221F85 /* Debug */,
+				293484A925FA9A1000221F85 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2934848B25FA9A0D00221F85 /* Project object */;
+}

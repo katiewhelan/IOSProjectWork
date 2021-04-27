@@ -1,0 +1,6 @@
+framework module Pods_AlgoliaPullInCollections {
+  umbrella header "Pods-AlgoliaPullInCollections-umbrella.h"
+
+  export *
+  module * { export * }
+}
